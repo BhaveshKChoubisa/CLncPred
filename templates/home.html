@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to the RNA Prediction Tool</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="sequence_input">Paste Sequence:</label><br>
+        <textarea id="sequence_input" name="sequence_input" rows="5" cols="40"></textarea><br><br>
+        <label for="fasta_file">Upload FASTA File:</label><br>
+        <input type="file" id="fasta_file" name="fasta_file"><br><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

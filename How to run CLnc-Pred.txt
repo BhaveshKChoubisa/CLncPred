@@ -1,0 +1,34 @@
+# Run from cmd and edit from visual studio
+
+open cmd
+cd "G:\My Drive\5. Research\1. M.Sc\Bhavesh Research\WEB INTERFACE\NEW_WEB_TOOL\CLncPred"
+
+G:
+
+venv\Scripts\activate
+
+pip install pandas
+
+
+pip install biopython
+
+# Run in Browser
+python app.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Guide - CLnc-Pred</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h2>CLnc-Pred User Guide</h2>
+    </header>
+    
+    <main>
+        <h3>Getting Started</h3>
+        <p>CLnc-Pred is a machine learning tool for predicting long non-coding RNAs (lncRNAs) in plant genomes. Follow the steps below to use the tool effectively.</p>
+
+        <h3>Step 1: Upload or Paste Sequence</h3>
+        <p>You can either:</p>
+        <ul>
+            <li>Paste a sequence in FASTA format.</li>
+            <li>Upload a FASTA file (.fasta, .fa, .txt).</li>
+        </ul>
+
+        <h3>Step 2: Click Predict</h3>
+        <p>After entering the sequence, click the Predict button to analyze the data.</p>
+
+        <h3>Step 3: View Results</h3>
+        <p>The prediction results will be displayed, indicating whether the sequence is a lncRNA or coding RNA.</p>
+
+        <h3>Need More Help?</h3>
+        <p>Visit the <a href="faqs.html">FAQs</a> page or contact <a href="mailto:support@clnc-pred.com">support@clnc-pred.com</a>.</p>
+    </main>
+</body>
+</html>
