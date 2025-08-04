@@ -1,15 +1,8 @@
-# Core ML & Utility packages
-xgboost==2.1.4
-pandas
-numpy
-scikit-learn
-joblib
 
-# Plotting (optional, used for SHAP or visualization)
-matplotlib
+xgboost==2.1.4
 seaborn
 
-# Web deployment (if you're deploying a Flask app)
+
 flask
 gunicorn
 
@@ -18,11 +11,7 @@ pandas==2.2.2
 joblib==1.4.2
 matplotlib==3.10.0
 
-
-numpy==2.0.2
-pandas==2.2.2
 scikit-learn==1.5.0
 scipy==1.13.1
-joblib==1.4.2
-matplotlib==3.10.0
+
 
